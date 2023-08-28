@@ -15,7 +15,12 @@ header {
     max-width: 1310px;
 }
 
-li {
+
+.navbar ul {
+    list-style-type: none;
+    text-align: right;
+}
+.navbar ul li {
     display: inline-block; 
     margin: 0 20px;
     font-weight: 700;
@@ -23,10 +28,11 @@ li {
     line-height: normal;
     font-style: normal;
 }
-ul {
-    list-style-type: none;
-    text-align: right;
+.navbar ul li a {
+    text-decoration: none;
+    color: inherit;
 }
+
 .container {
     max-width: 1310px;
     margin: 0 auto;
@@ -34,7 +40,11 @@ ul {
     display: flex;
 }
 
+.description-section {
+    position: relative;
+    max-width: 800px;
 
+}
 .developer {
     margin: 40px auto;
 }
@@ -42,26 +52,27 @@ ul {
     margin: 20px auto;
 }
 .call {
-    margin: 20px auto;
+    margin: 60px auto;
 }
 
 .image-section{
     position: relative;
 }
 img{
+    
     position: absolute;
     border-radius: 0 0 0 280px;
     border: 5px solid #000000;
 }
 .black-box{
-    position: absolute;
+    position: relative;
     width: 482px;
     height: 585px;
     background-color: #000000;
     border-radius: 0 0 0 280px;
     z-index: -1;
-    left: 20px;
-    bottom: 10px;
+    left: 30px;
+    bottom: 15px;
 }
 
 h1 {
