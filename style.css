@@ -81,6 +81,9 @@ h1 {
     font-weight: 700;
     line-height: 90px;
 }
+h1 svg {
+    animation: mymove 1s infinite;
+}
 
 h2 {
     color: #121212;
@@ -121,3 +124,15 @@ p {
     background: #000000;
     color: #ffffff;
 }
+
+@keyframes mymove {
+    0% {
+        transform: rotate(-10deg);
+    }
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+  }
