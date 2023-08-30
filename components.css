@@ -10,11 +10,14 @@
     text-align: center;
     padding: 80px 20px;
     margin: 100px auto;
-    background-color: rgb(236, 233, 229);
-    border-radius: 20px;
+    box-shadow: 1px 1px 6px #808080;
 }
 
 p {
     margin: 32px 0px;
     line-height: 140%;
+}
+
+svg {
+    fill: #1a96c4;
 }
