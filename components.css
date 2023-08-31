@@ -13,7 +13,7 @@
     box-shadow: 1px 1px 6px #808080;
 }
 
-p {
+.contact-card p {
     margin: 32px 0px;
     line-height: 140%;
 }
@@ -21,3 +21,66 @@ p {
 svg {
     fill: #1a96c4;
 }
+
+img {
+    max-width: 500px;
+}
+
+.about-us {
+    display: flex;
+    padding: 100px 200px;
+    margin: 50px auto;
+    background-color: #daeef6;
+ }
+
+.description {
+    padding: 0px 50px;
+    max-width: 500px;
+}
+
+.description h3{
+    margin: 16px 0px;
+    font-family: 'Crimson Pro', serif;
+    font-size: 20px;
+    line-height: 26px;
+    color: #002743;
+    font-style: italic;
+ }
+
+.description h1{
+    font-family: 'Akzidenz Grotesk', sans-serif;
+    font-size: 42px;
+    font-weight: normal;
+    line-height: 48px;
+    color: #22282C; 
+}
+
+.description p{
+    font-family: 'Akzidenz Grotesk', sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #22282C; 
+    margin-bottom: 24px;
+}
+
+.description .separator {
+    display: inline-block;
+    width: 60px;
+    height: 2px;
+    background-color: #E8C259;
+    margin: 20px 0px;
+}
+
+.btn {
+    display: inline-block;
+    font-family: 'Akzidenz Grotesk', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #FFFFFF;
+    background-image: linear-gradient(to right, #3BB8EB , #007DB3);
+    padding: 12px 39px;
+    border-radius: 22px 0px 22px 0px;
+ }
+
