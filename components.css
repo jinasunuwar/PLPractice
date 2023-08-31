@@ -31,6 +31,7 @@ img {
     padding: 100px 200px;
     margin: 50px auto;
     background-color: #daeef6;
+    background-image: url(images/background\ texture.png);
  }
 
 .description {
