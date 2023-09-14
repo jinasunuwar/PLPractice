@@ -1,0 +1,47 @@
+.customer-section {
+    background-color: #f5f7fa;
+    margin: 48px auto;
+}
+
+.customer-section .container {
+    display: flex;
+    gap: 78px;
+    padding: 32px 0;
+}
+
+.customer-section p{
+    text-align: left;
+}
+.customer-section .font-color {
+    color: #89939E;
+    font-weight: 400;
+    padding-top: 8px;
+}
+.customer-section h4{
+    color: #4CAF4F;
+    padding-top: 24px;
+}
+
+.customer-section .img-section img {
+    border-radius: 20px;
+}
+
+.customer-section .logo-and-button .logo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 32px 0;
+}
+
+
+/* global.css */
+h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    color: #4D4D4D;
+}
+
+@import "./components-css/customer.css";
+

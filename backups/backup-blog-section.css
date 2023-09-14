@@ -1,0 +1,30 @@
+.blog-section {
+    margin: 48px auto;
+}
+
+.blog-section .section-title-description {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 16px  ;
+}
+
+.blog-section .section-title-description p{
+    max-width: 628px;
+}
+
+.blog-section .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.blog-section .row .col3 .card-description {
+    height: 156px;
+}
+
+.blog-section .row .col3 .btn-wrap {
+    padding-top: 20px;
+}
+
+@import "./components-css/blog-section.css";
