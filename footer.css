@@ -14,6 +14,12 @@ body {
     font-family: "Rubik", sans-serif;
 }
 
+h4 {
+    color: #ffffff;
+    line-height: 24px;
+    text-align: left;
+}
+
 p {
     color: #ffffff;
     font-size: 16px;
@@ -29,13 +35,13 @@ p {
  .separator {
     display: inline-block;
     height: 0.5px;
-    width: 1160px;
+    width: 100%;
     background-color: grey;
     margin: 20px auto;
  }
 .separator-vertical {
     border-left: 0.5px solid grey;
-    height: 180px;
+    height: 160px;
 }
 
 a {
@@ -45,4 +51,31 @@ a {
 
 .row-2 {
     display: flex;
+    gap: 50px;
+}
+.row-2 .address {
+    width: 220px;
+    margin-right: 100px;
+}
+.row-2 .social-links {
+    margin-top: 24px;
+}
+.row-2 .social-links li{
+    display: flex;
+    gap: 32px;
+}
+.row-2 .col-3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 24px;
+}
+
+.row-3 {
+    display: flex;
+    gap: 646px;
+}
+.row-3 .policy{
+    display: flex;
+    gap: 24px;
 }
