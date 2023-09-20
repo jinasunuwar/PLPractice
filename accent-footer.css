@@ -7,7 +7,7 @@
 .container {
     padding: 0 20px;
     margin: 0 auto;
-    max-width: 1160;
+    max-width: 1160px;
 }
 
 body {
@@ -73,7 +73,7 @@ p {
 }
 .site-footer .row-2 .address {
     width: 220px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
 }
 .site-footer .row-2 .social-links {
     margin-top: 24px;
@@ -91,7 +91,7 @@ p {
 
 .site-footer .row-3 {
     display: flex;
-    gap: 603px;
+    gap: 484px;
 }
 .site-footer .row-3 .policy{
     display: flex;
