@@ -29,7 +29,7 @@ h4 {
 }
 
 h5 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 24px;
     letter-spacing: 0.5px;
     text-transform: uppercase
@@ -48,7 +48,7 @@ p {
     padding: 40px 120px;
 }
 
- .separator {
+ .site-footer .separator {
     /* display: inline-block;
     height: 0.5px;
     width: 100%;
@@ -57,43 +57,43 @@ p {
     border: 1px solid grey;
     margin: 20px auto;
  }
-.separator-vertical {
+.site-footer .separator-vertical {
     border-left: 2px solid grey;
     height: 160px;
 }
 
-a {
+.site-footer a {
     color: #ffffff;
     font-weight: 800;
 }
 
-.row-2 {
+.site-footer .row-2 {
     display: flex;
     gap: 50px;
 }
-.row-2 .address {
+.site-footer .row-2 .address {
     width: 220px;
     margin-right: 100px;
 }
-.row-2 .social-links {
+.site-footer .row-2 .social-links {
     margin-top: 24px;
 }
-.row-2 .social-links li{
+.site-footer .row-2 .social-links li{
     display: flex;
     gap: 32px;
 }
-.row-2 .col-3 {
+.site-footer .row-2 .col-3 {
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 24px;
 }
 
-.row-3 {
+.site-footer .row-3 {
     display: flex;
-    gap: 620px;
+    gap: 603px;
 }
-.row-3 .policy{
+.site-footer .row-3 .policy{
     display: flex;
     gap: 32px;
 }

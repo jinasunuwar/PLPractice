@@ -6,11 +6,34 @@
     padding: 100px 140px;
 }
 
-.presentation-publication p {
+.presentation-publication .container p {
     color: #000101;
+    font-size: 20px;
     width: 500px;
     margin-bottom: 36px;
     margin-top: 24px;
+}
+
+.presentation-publication a {
+    text-decoration: none;
+}
+
+.presentation-publication .row-1 {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+.presentation-publication .row-2 {
+    display: flex;
+    gap: 100px;
+    margin-bottom: 50px;
+}
+
+.presentation-publication .content p {
+    font-size: 36px;
+    font-weight: lighter;
+    line-height: 42px;
+    margin: 20px 0;
 }
 
 .presentation-publication h4 {
@@ -23,11 +46,26 @@
     gap: 132px;
 }
 
+.presentation-publication .presentation-link {
+    color: #015365;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.presentation-link:hover {
+    border-bottom: 3px solid #1CB8DB;
+
+}
+
 .presentation-publication .separators {
    display: grid;
    grid-template-columns: 1fr;
    grid-template-rows: 1fr;
    place-items: start;
+   margin-top: 16px;
+   margin-bottom: 48px;
 }
 .presentation-publication .separators .long-line {
     border: 2px solid #1CB8DB;
