@@ -1,0 +1,21 @@
+.partnership {
+    padding-top: 100px;
+}
+
+.partnership .row-1 {
+    display: flex;
+    gap: 40px;
+}
+
+.partnership .row-1 .col-1  .title{
+    padding-bottom: 24px;
+}
+.partnership .row-1 .col-1 .description{
+    width: 500px;
+}
+.partnership .row-1 .col-2 .description{
+    width: 580px;
+}
+.partnership .row-2 {
+    margin-bottom: -4px;
+}
